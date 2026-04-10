@@ -25,8 +25,50 @@
     </nav>
   </header>
  <main>
-  <h1>contactez-nous</h1>
- </main>
+  <section class="contact-header">
+    <h2>Contactez-moi</h2>
+    <p>Un projet en tête ou une question ? N'hésitez pas à m'écrire. Je suis basée à <strong>Lubumbashi</strong>.</p>
+  </section>
+
+  <div class="contact-container">
+    <form class="contact-form">
+      <div class="form-group">
+        <label for="name">Nom complet</label>
+        <input type="text" id="name" placeholder="Votre nom" required>
+      </div>
+      <div class="form-group">
+        <label for="email">Email</label>
+        <input type="email" id="email" placeholder="votre@email.com" required>
+      </div>
+      <div class="form-group">
+        <label for="message">Message</label>
+        <textarea id="message" rows="5" placeholder="Votre message ici..." required></textarea>
+      </div>
+      <button type="submit" class="btn-submit">Envoyer</button>
+    </form>
+
+    <div class="contact-info">
+      <h3>Directement via</h3>
+      
+      <div class="contact-methods">
+        <a href="https://wa.me/243894707885" target="_blank" class="method-card whatsapp">
+          <i class="fab fa-whatsapp"></i>
+          <span>WhatsApp</span>
+        </a>
+
+        <a href="https://t.me/+243894707885" target="_blank" class="method-card telegram">
+          <i class="fab fa-telegram-plane"></i>
+          <span>Telegram</span>
+        </a>
+
+        <div class="location-box">
+          <i class="fas fa-map-marker-alt"></i>
+          <p>Lubumbashi, Haut-Katanga<br>République Démocratique du Congo</p>
+        </div>
+      </div>
+    </div>
+  </div>
+</main>
   <footer>
     <p>&copy; 2024 BelleGrace Kayombo. Tous droits reserves.</p>
     <img src="images/github.png" alt="github" width="30" height="30"><img src="images/linkedin.png" alt="linkedin" width="30" height="30"><img src="images/twitter.png" alt="twitter" width="30" height="30">

@@ -25,7 +25,7 @@
     </nav>
   </header>
   <main>
-    <h1>Mes Realisations</h1>
+   
   </main>
   <!DOCTYPE html>
   <html lang="en">
@@ -35,55 +35,110 @@
     <title>Mon Portfolio</title>
   </head>
   <body>
-    <main>
-      <section>
-        <h2>Site E-commerce</h2>
-        <img src="images/e-commerce.jpeg" alt="" width="300">
-        <p>Une boutique en ligne complete developpee avec HTML, CSS et JAVASCRIPT pur.</p>
-        <p>Technologies: HTML, CSS, JS</p>
-        <a href="">code</a> / <a href="">Demo</a>
-      </section>
+   <main>
+  <section class="projets-intro">
+    <h2>Mes Réalisations</h2>
+    <p>Découvrez une sélection de mes travaux, du développement web au design d'interface.</p>
+  </section>
 
-      <section>
-        <h2>Gestionnaire de Taches</h2>
-        <img src="images/gestinnaire.webp" alt="" width="300">
+  <div class="projets-grid">
+    <article class="projet-card">
+      <div class="projet-image">
+        <img src="images/e-commerce.jpeg" alt="Site E-commerce">
+      </div>
+      <div class="projet-info">
+        <span class="tag">Web Design</span>
+        <h3>Site E-commerce</h3>
+        <p>Une boutique en ligne complète développée avec HTML, CSS et JS pur.</p>
+        <div class="projet-tech">HTML • CSS • JavaScript</div>
+        <div class="projet-links">
+          <a href="#" class="link-code">Code</a>
+          <a href="#" class="link-demo">Démo</a>
+        </div>
+      </div>
+    </article>
+
+    <article class="projet-card">
+      <div class="projet-image">
+        <img src="images/gestinnaire.webp" alt="Gestionnaire de tâches">
+      </div>
+      <div class="projet-info">
+        <span class="tag">Backend</span>
+        <h3>Gestionnaire de Tâches</h3>
         <p>Application web pour organiser ses projets quotidiens avec stockage local.</p>
-        <p>Technologies : python, flask</p>
-        <a href="">code</a>| <a href="">Demo</a>
-      </section>
+        <div class="projet-tech">Python • Flask</div>
+        <div class="projet-links">
+          <a href="#" class="link-code">Code</a>
+          <a href="#" class="link-demo">Démo</a>
+        </div>
+      </div>
+    </article>
 
-      <section>
-        <h2>Blog Personnel</h2>
-        <img src="images/blog-professionel-personnel.webp" alt="" width="300">
-         <p>Projet en cours de migration vers laravel pour apprendre le backend</p>
-      <p>Technologies : PHP, Laravel</p>
-      <a href="">code</a> | <span>Bientot</span>
-      </section>
-     
-      <section>
-        <h2>Dashboard d'Analyse</h2>
-        <img src="images/dashboard.webp" alt="" width="300">
-        <p>Visualisation de donnees dynamique avec python et la bibliotheques</p>
-        <p>Technologies : Python, Data</p>
-        <a href="">Code</a>. | <span>Demo</span>
-      </section>
+    <article class="projet-card">
+      <div class="projet-image">
+        <img src="images/blog-professionel-personnel.webp" alt="Blog Personnel">
+      </div>
+      <div class="projet-info">
+        <span class="tag">Fullstack</span>
+        <h3>Blog Personnel</h3>
+        <p>Projet en cours de migration vers Laravel pour maîtriser le backend.</p>
+        <div class="projet-tech">PHP • Laravel</div>
+        <div class="projet-links">
+          <a href="#" class="link-code">Code</a>
+          <span class="bientot">Bientôt disponible</span>
+        </div>
+      </div>
+    </article>
 
-      <section>
-        <h2>Application Meteo</h2>
-        <img src="images/appli meteo.jpg" alt="" width="300">
-        <p>Une application qui utilise une API en temps reel pour afficher la meteo mondiale.</p>
-        <p>Technologies : Javacript, API</p>
-        <a href="">Design</a> | <span>Demo</span>
-      </section>
+    <article class="projet-card">
+      <div class="projet-image">
+        <img src="images/dashboard.webp" alt="Dashboard">
+      </div>
+      <div class="projet-info">
+        <span class="tag">Data</span>
+        <h3>Dashboard d'Analyse</h3>
+        <p>Visualisation de données dynamique avec Python et ses bibliothèques.</p>
+        <div class="projet-tech">Python • Pandas</div>
+        <div class="projet-links">
+          <a href="#" class="link-code">Code</a>
+          <span class="bientot">Démo</span>
+        </div>
+      </div>
+    </article>
 
-      <section>
-        <h2>Maquette Mobile UI</h2>
-        <img src="images/model mobile.jpg" alt="maquette mobile" width="300"> 
-        <p>Conception d'une interface utilisateur moderne pour une application de fitness.</p>
-        <p>Technologies : Figma, Design</p>
-        <a href="">Design</a> | <span>Apercu</span>
-      </section>
-    </main>
+    <article class="projet-card">
+      <div class="projet-image">
+        <img src="images/appli meteo.jpg" alt="Appli Météo">
+      </div>
+      <div class="projet-info">
+        <span class="tag">API</span>
+        <h3>Application Météo</h3>
+        <p>Utilisation d'une API en temps réel pour afficher la météo mondiale.</p>
+        <div class="projet-tech">JavaScript • API OpenWeather</div>
+        <div class="projet-links">
+          <a href="#" class="link-demo">Design</a>
+          <span class="bientot">Démo</span>
+        </div>
+      </div>
+    </article>
+
+    <article class="projet-card">
+      <div class="projet-image">
+        <img src="images/model mobile.jpg" alt="Maquette Mobile">
+      </div>
+      <div class="projet-info">
+        <span class="tag">UI/UX</span>
+        <h3>Maquette Mobile UI</h3>
+        <p>Conception d'une interface moderne pour une application de fitness.</p>
+        <div class="projet-tech">Figma • Design</div>
+        <div class="projet-links">
+          <a href="#" class="link-demo">Design</a>
+          <span class="bientot">Aperçu</span>
+        </div>
+      </div>
+    </article>
+  </div>
+</main>
   </body>
   </html>
 
